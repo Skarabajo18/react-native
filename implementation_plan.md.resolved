@@ -1,0 +1,16 @@
+# Descripción del Objetivo
+Construiremos una **Aplicación de Tareas (To-Do App)** simple pero completa para aprender los conceptos básicos de React Native (Componentes, Estado, Estilos). Ya tenemos un proyecto base creado con Expo Router.
+
+## Lo que vamos a construir
+
+1.  **Limpieza del código base:** Ejecutaremos `npm run reset-project` en la carpeta `frontend-app`. Esto limpiará las pestañas de ejemplo y nos dará un inicio en blanco limpio.
+2.  **Desarrollo de la Interfaz (UI):**
+    *   **[NUEVO] Componente:** Crearemos `components/TaskItem.tsx` para mostrar cada tarea individual.
+    *   **[MODIFICAR] Pantalla Principal:** Actualizaremos `app/index.tsx` para incluir un campo de texto (`TextInput`) para escribir tareas, un botón de "Añadir" (`TouchableOpacity`), y una lista dinámica (`FlatList`) para mostrar las tareas.
+3.  **Manejo del Estado (State):** En `app/index.tsx`, usaremos el hook `useState` de React para guardar la lista de tareas y el texto de la nueva tarea que el usuario está escribiendo.
+
+## Plan de Verificación
+### Pruebas Automáticas
+- Ejecutaremos `npm run web` (o `expo start`) para iniciar el servidor de desarrollo y verificar que la interfaz funcione.
+### Verificación Manual
+- Podremos probar la aplicación directamente escaneando el código QR con Expo Go en tu teléfono o en el navegador web. Podremos agregar y eliminar tareas.
